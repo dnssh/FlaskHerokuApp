@@ -13,7 +13,7 @@ from flask import Flask, render_template
 # import tweepy
 # from configs import *
 
-app = Flask(__name__)
+a = Flask(__name__)
 # app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'XYZ')
 
 # FORMAT = '[%(asctime)-15s] %(message)s'
@@ -71,6 +71,6 @@ app = Flask(__name__)
 #         time.sleep(1200)
 #     return render_template('index.html')
 
-@app.route('/')
+@a.route('/')
 def index():
     return render_template('index.html')
