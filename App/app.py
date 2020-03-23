@@ -8,7 +8,7 @@ import requests
 import argparse
 import logging
 from bs4 import BeautifulSoup
-from tabulate import tabulate
+# from tabulate import tabulate
 import time
 import tweepy
 from configs import *
